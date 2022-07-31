@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Instagram Timeline</title>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@400;500;600;700&family=Kdam+Thmor+Pro&family=Lobster&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
+    <body>
+        <div class="header">
+            <div class="header-content">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-4">
+                        <div class="left-bar d-flex justify-content-between">
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="right-bar">
+                            <input type="search" placeholder="Search" />
+                            <button><i class="fas fa-search"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="insta-menu d-flex">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <svg aria-label="Home" class="_ab6-" color="#262626" fill="#262626" height="24" role="img" viewBox="0 0 24 24" width="24">
+                                            <path
+                                                d="M22 23h-6.001a1 1 0 01-1-1v-5.455a2.997 2.997 0 10-5.993 0V22a1 1 0 01-1 1H2a1 1 0 01-1-1V11.543a1.002 1.002 0 01.31-.724l10-9.543a1.001 1.001 0 011.38 0l10 9.543a1.002 1.002 0 01.31.724V22a1 1 0 01-1 1z"
+                                            ></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <svg aria-label="Direct" class="_ab6-" color="#262626" fill="#262626" height="24" role="img" viewBox="0 0 24 24" width="24">
+                                            <line fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2" x1="22" x2="9.218" y1="3" y2="10.083"></line>
+                                            <polygon fill="none" points="11.698 20.334 22 3.001 2 3.001 9.218 10.084 11.698 20.334" stroke="currentColor" stroke-linejoin="round" stroke-width="2"></polygon>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                       
+                                        <button data-bs-toggle="modal" data-bs-target="#timeline-modal"> <svg aria-label="New post" class="_ab6-" color="#262626" fill="#262626" height="24" role="img" viewBox="0 0 24 24" width="24">
+                                            <path
+                                                d="M2 12v3.45c0 2.849.698 4.005 1.606 4.944.94.909 2.098 1.608 4.946 1.608h6.896c2.848 0 4.006-.7 4.946-1.608C21.302 19.455 22 18.3 22 15.45V8.552c0-2.849-.698-4.006-1.606-4.945C19.454 2.7 18.296 2 15.448 2H8.552c-2.848 0-4.006.699-4.946 1.607C2.698 4.547 2 5.703 2 8.552z"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                stroke-width="2"
+                                            ></path>
+                                            <line fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="6.545" x2="17.455" y1="12.001" y2="12.001"></line>
+                                            <line fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="12.003" x2="12.003" y1="6.545" y2="17.455"></line>
+                                        </svg></button>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <svg aria-label="Find People" class="_ab6-" color="#262626" fill="#262626" height="24" role="img" viewBox="0 0 24 24" width="24">
+                                            <polygon fill="none" points="13.941 13.953 7.581 16.424 10.06 10.056 16.42 7.585 13.941 13.953" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon>
+                                            <polygon fill-rule="evenodd" points="10.06 10.056 13.949 13.945 7.581 16.424 10.06 10.056"></polygon>
+                                            <circle cx="12.001" cy="12.005" fill="none" r="10.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></circle>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <svg aria-label="Activity Feed" class="_ab6-" color="#262626" fill="#262626" height="24" role="img" viewBox="0 0 24 24" width="24">
+                                            <path
+                                                d="M16.792 3.904A4.989 4.989 0 0121.5 9.122c0 3.072-2.652 4.959-5.197 7.222-2.512 2.243-3.865 3.469-4.303 3.752-.477-.309-2.143-1.823-4.303-3.752C5.141 14.072 2.5 12.167 2.5 9.122a4.989 4.989 0 014.708-5.218 4.21 4.21 0 013.675 1.941c.84 1.175.98 1.763 1.12 1.763s.278-.588 1.11-1.766a4.17 4.17 0 013.679-1.938m0-2a6.04 6.04 0 00-4.797 2.127 6.052 6.052 0 00-4.787-2.127A6.985 6.985 0 00.5 9.122c0 3.61 2.55 5.827 5.015 7.97.283.246.569.494.853.747l1.027.918a44.998 44.998 0 003.518 3.018 2 2 0 002.174 0 45.263 45.263 0 003.626-3.115l.922-.824c.293-.26.59-.519.885-.774 2.334-2.025 4.98-4.32 4.98-7.94a6.985 6.985 0 00-6.708-7.218z"
+                                            ></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <button>
+                                    <a href="#"><img src="./assets/img/slazzer-edit-image1 (2) (1).png" alt="" /></a>
+                                </button>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="insta-timeline">
+            <div class="timeline-content">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="story-area">
+                            <div class="card shadow-sm rounded-5">
+                                <div class="card-body d-flex justify-content-evenly">
+                                    <div class="story-img-area">
+                                        <a href="#"><img src="./assets/img/281390643_1420784781711023_6074593470957341495_n (2).jpg" alt="" /></a>
+                                        <p>sunhail_shajib</p>
+                                    </div>
+                                    <div class="story-img-area">
+                                        <a href="#"><img src="./assets/img/281390643_1420784781711023_6074593470957341495_n (2).jpg" alt="" /></a>
+                                        <p>sunhail_shajib</p>
+                                    </div>
+                                    <div class="story-img-area">
+                                        <a href="#"><img src="./assets/img/281390643_1420784781711023_6074593470957341495_n (2).jpg" alt="" /></a>
+                                        <p>sunhail_shajib</p>
+                                    </div>
+                                    <div class="story-img-area">
+                                        <a href="#"><img src="./assets/img/281390643_1420784781711023_6074593470957341495_n (2).jpg" alt="" /></a>
+                                        <p>sunhail_shajib</p>
+                                    </div>
+                                    <div class="story-img-area">
+                                        <a href="#"><img src="./assets/img/281390643_1420784781711023_6074593470957341495_n (2).jpg" alt="" /></a>
+                                        <p>sunhail_shajib</p>
+                                    </div>
+                                    <div class="story-img-area">
+                                        <a href="#"><img src="./assets/img/281390643_1420784781711023_6074593470957341495_n (2).jpg" alt="" /></a>
+                                        <p>sunhail_shajib</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="all-post">
+                            <!-- <div class="card timeline-area shadow-sm rounded-5">
+                                <div class="card-body timeline-details d-flex align-items-center justify-content-between">
+                                    <div class="left-area d-flex align-items-center">
+                                        <a href="#"><img src="./assets/img/slazzer-edit-image1 (2) (1).png" alt="" /></a>
+                                        <p>Shajib</p>
+                                    </div>
+                                    <div class="right-area">
+                                        <div class="dropdown">
+                                            <button type="button" class="dropdown-toggle" data-bs-toggle="dropdown">
+                                                <i class="fas fa-ellipsis-h"></i>
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">Edit</a></li>
+                                                <li><a class="dropdown-item" href="#">Delete</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="post-content">
+                                    <p class="mx-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, odit incidunt fuga amet quam impedit! Totam at ducimus commodi accusamus.</p>
+                                    <img src="./assets/img/slazzer-edit-image1 (2) (1).png" alt="" />
+                                </div>
+                            </div> -->
+                        </div>
+                        
+                    </div>
+                
+                <div class="col-md-5">
+                    <div class="full-area">
+                        <div class="side-user-info d-flex justify-content-between align-items-center">
+                            <div class="left-side-bar d-flex align-items-center">
+                                <img src="./assets/img/slazzer-edit-image1 (2) (1).png" alt="" />
+                                <div class="user-name">
+                                    <p>sunhail_shajib</p>
+                                    <span>Sha jib</span>
+                                </div>
+                            </div>
+                            <div class="right-side-bar">
+                                <p>Switch</p>
+                            </div>
+                        </div>
+                        <div class="side-user-info d-flex justify-content-between align-items-center">
+                            <div class="left-side-bar d-flex align-items-center">
+                                <div class="user-name">
+                                    <p class="suggest-text">Suggestions For You</p>
+                                </div>
+                            </div>
+                            <div class="right-side-bar">
+                                <p class="see-more">See All</p>
+                            </div>
+                        </div>
+                        <div class="side-user-info d-flex justify-content-between align-items-center mb-2">
+                            <div class="left-side-bar d-flex align-items-center">
+                                <img class="body-img" src="./assets/img/slazzer-edit-image1 (2) (1).png" alt="" />
+                                <div class="user-name">
+                                    <p>sunhail_shajib</p>
+                                    <span>Sha jib</span>
+                                </div>
+                            </div>
+                            <div class="right-side-bar">
+                                <p>Follow</p>
+                            </div>
+                        </div>
+                        <div class="side-user-info d-flex justify-content-between align-items-center mb-2">
+                            <div class="left-side-bar d-flex align-items-center">
+                                <img class="body-img" src="./assets/img/slazzer-edit-image1 (2) (1).png" alt="" />
+                                <div class="user-name">
+                                    <p>sunhail_shajib</p>
+                                    <span>Sha jib</span>
+                                </div>
+                            </div>
+                            <div class="right-side-bar">
+                                <p>Follow</p>
+                            </div>
+                        </div>
+                        <div class="side-user-info d-flex justify-content-between align-items-center mb-2">
+                            <div class="left-side-bar d-flex align-items-center">
+                                <img class="body-img" src="./assets/img/slazzer-edit-image1 (2) (1).png" alt="" />
+                                <div class="user-name">
+                                    <p>sunhail_shajib</p>
+                                    <span>Sha jib</span>
+                                </div>
+                            </div>
+                            <div class="right-side-bar">
+                                <p>Follow</p>
+                            </div>
+                        </div>
+                        <div class="side-user-info d-flex justify-content-between align-items-center mb-2">
+                            <div class="left-side-bar d-flex align-items-center">
+                                <img class="body-img" src="./assets/img/slazzer-edit-image1 (2) (1).png" alt="" />
+                                <div class="user-name">
+                                    <p>sunhail_shajib</p>
+                                    <span>Sha jib</span>
+                                </div>
+                            </div>
+                            <div class="right-side-bar">
+                                <p>Follow</p>
+                            </div>
+                        </div>
+                        <div class="side-user-info d-flex justify-content-between align-items-center mb-2">
+                            <div class="left-side-bar d-flex align-items-center">
+                                <img class="body-img" src="./assets/img/slazzer-edit-image1 (2) (1).png" alt="" />
+                                <div class="user-name">
+                                    <p>sunhail_shajib</p>
+                                    <span>Sha jib</span>
+                                </div>
+                            </div>
+                            <div class="right-side-bar">
+                                <p>Follow</p>
+                            </div>
+                        </div>
+                        <div class="side-list">
+                            <ul>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">. Help</a></li>
+                                <li><a href="#">. Press</a></li>
+                                <li><a href="#">. API</a></li>
+                                <li><a href="#">. Jobs</a></li>
+                                <li><a href="#">. Privacy</a></li>
+                                <li><a href="#">. Terms</a></li>
+                                <li><a href="#">. Locations</a></li>
+                                <li><a href="#">. Language</a></li>
+                            </ul>
+                        </div>
+                        <div class="side-copywrite-text">
+                            <p>&copy; 2022 INSTAGRAM FROM META</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        
+        <!--post modal -->
+        <div id="timeline-modal" class="modal fade" >
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="modal-top d-flex justify-content-between">
+                            <h3>Create a Post</h3>
+                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="msg"></div>
+                        <hr>
+                        <form id="post-modal" action="">
+                            <div class="my-3">
+                                <label for="">Auth Name</label>
+                                <input class="form-control" name="aname" type="text">
+                            </div>
+                            <div class="my-3">
+                                <label for="">Auth Photo</label>
+                                <input class="form-control" name="aphoto" type="text">
+                            </div>
+                            <div class="my-3">
+                                <label for="">Post Content</label>
+                                <input class="form-control" name="pcontent" type="text">
+                            </div>
+                            <div class="my-3">
+                                <label for="">Post Photo</label>
+                                <input class="form-control" name="pphoto" type="text">
+                            </div>
+                            <div class="my-3">
+                                <input class="btn btn-primary w-100" type="submit" value="Submit">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- edit modal -->
+
+        <div class="modal fade shadow" id="insta_edit_modal">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header d-flex justify-content-between">
+                        <h3>Edit Post</h3>
+                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <form action="" id="edit_form">
+                            
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="./assets/js/function.js"></script>
+        <script src="./assets/js/app.js"></script>
+    </body>
+</html>

@@ -1,0 +1,229 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    max-width: 100%;
+}
+input:focus {
+    outline: none;
+}
+body{
+    background-color: #fafafa;
+}
+
+/* header css */
+
+.header {
+    background-color: #ffffff;
+    padding: 13px 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:999;
+}
+.header-content {
+    width: 975px;
+    margin: auto;
+}
+.insta-menu ul {
+    text-align: right;
+    display: flex;
+    margin-bottom: 0 !important;
+}
+.insta-menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 19px;
+}
+.insta-menu ul li a {
+    display: block;
+    padding: 0px 5px;
+}
+.left-bar a {
+    width: 105px;
+    height: 31px;
+    background-image: url(../img/FgK_82FrL6G.png);
+    display: inline-block;
+    background-position: 2px -29px;
+}
+.right-bar{
+    position: relative;
+}
+.right-bar input {
+    padding: 7px 0px;
+    font-size: 18px;
+    border-radius: 11px;
+    border: none;
+    background: #efefef;
+    padding-left: 43px;
+    width: 308px;
+}
+.right-bar button {
+    position: absolute;
+    top: 7px;
+    left: 11px;
+    border: none;
+    font-size: 19px;
+    color: #8e8e8e;
+}
+.insta-menu button {
+    width: 32px;
+    height: 32px;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    background: none;
+}
+.insta-menu button a img{
+    border-radius: 50%;
+}
+.insta-timeline {
+    margin-top: 94px;
+    height: 100vh;
+}
+.timeline-content{
+    width: 929px;
+    margin: auto;
+}
+.left-side-bar img {
+    height: 72px;
+    width: 72px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 11px;
+}
+.left-side-bar .user-name p {
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.left-side-bar .user-name span {
+    font-weight: 500;
+    color: #969090;
+}
+.side-user-info .right-side-bar p {
+    color: #3aadf7;
+}
+.suggest-text {
+    font-weight: bold;
+    color: #acacac;
+    margin: 13px 0px !important;
+}
+.see-more {
+    color: black !important;
+}
+.body-img {
+    height: 40px !important;
+    width: 40px !important;
+}
+
+.side-list ul li a {
+    color: #c7c7c7;
+    text-decoration: none;
+}
+
+.side-list ul li {
+    display: inline-block;
+    list-style: none;
+}
+.side-list ul {
+    display: block;
+    margin-left: 0px;
+    padding-left: 0;
+}
+.side-list {
+    display: block;
+}
+.side-copywrite-text {
+    color: #c7c7c7;
+}
+.story-img-area {
+    display: inline-block;
+    width: 62px;
+}
+.story-img-area a {
+    text-decoration: none;
+    display: block;
+}
+.story-img-area a img {
+    border-radius: 50%;
+    border: 3px solid #d600be;
+    padding: 1px;
+    box-sizing: content-box;
+}
+.story-img-area p {
+    margin-bottom: 0px;
+}
+.timeline-details .left-area a {
+    display: block;
+}
+.timeline-details .left-area a img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: block;
+    border: 3px solid #e70099;
+    padding: 2px;
+    box-sizing: border-box;
+}
+.timeline-details .left-area p {
+    margin-left: 11px;
+    font-weight: 500;
+}
+.timeline-area .timeline-details {
+    background: #ffffff;
+}
+.timeline-area{
+    margin-top: 24px;
+}
+.timeline-details .right-area i {
+    font-size: 21px;
+    color: #969494;
+    cursor: pointer;
+}
+.right-area .dropdown button {
+    background: none;
+    border: none;
+}
+.dropdown-toggle::after {
+    display: none !important;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+.no-product {
+    background: #ffffff;
+    padding: 10px 0px;
+    border-radius: 8px;
+    margin-top: 24px;
+}
+.feedback-val ul li {
+    list-style: none;
+    display: inline-block;
+}
+.feedback-val ul {
+    padding-left: 15px;
+    display: block;
+    width: 80%;
+}
+.feedback-val ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 17px;
+}
+.feedback-val ul li a{
+    display: block;
+}
+.feedback-val button {
+    margin-right: 19px;
+    border: none;
+    color: black;
+    background: none;
+}
+.feedback-val button svg {
+    color: black;
+}
